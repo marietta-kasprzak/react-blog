@@ -3,7 +3,7 @@ import Home from './components/pages/Home';
 import SinglePost from './components/views/SinglePost';
 import PostEdit from './components/pages/PostEdit';
 import PostAdd from './components/pages/PostAdd';
-import About from './components/views/About';
+import About from './components/pages/About';
 import NotFound from './components/pages/NotFound';
 import Header from './components/views/Header';
 import Footer from './components/views/Footer';
@@ -30,7 +30,7 @@ function App() {
           <Route path="/post/edit/:postId" element={<PostEdit />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<InsideSingleCategory />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} /> 
           <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer />

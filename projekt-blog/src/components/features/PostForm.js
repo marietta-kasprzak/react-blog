@@ -1,15 +1,11 @@
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-import shortid from "shortid";
-import { Link } from 'react-router-dom';
-import { useParams } from 'react-router';
-import ReactQuill, { Quill } from 'react-quill';
+import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { dateToStr } from "../../utils/dateToStr";
+//import { dateToStr } from "../../utils/dateToStr";
 import { useForm } from "react-hook-form";
-import Posts from "./Posts";
 import { useSelector } from "react-redux";
 
 
